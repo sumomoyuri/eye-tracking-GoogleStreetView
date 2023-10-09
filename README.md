@@ -9,7 +9,7 @@ https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/3cb
 <img width="1000" alt="kernel_sample" src="https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/6deddf63-0069-48a4-8371-c5e3b23ad340">  
 
 ## 【概要】
-アイトラッカー（TobiiProNano）を用いた、Googleストリートビュー探索時のアイトラッキングデータを記録し、動画への可視化や、GoogleストリートビューのURL情報をもとに生成したパオラマ画像上で可視化するための、一連のデータ処理プログラム。  
+アイトラッカー（TobiiProNano）を用いた、Googleストリートビュー探索時のアイトラッキングデータを記録し、動画への可視化や、GoogleストリートビューのURL情報をもとに生成したパノラマ画像上で可視化するための、一連のデータ処理プログラム。  
 <img width="500" alt="kernel_sample" src="https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/fae93d1e-251b-4065-8404-2af64e0bf55c"> 
 
 ## 【アイトラッカー Tobii Pro Nano】
