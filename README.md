@@ -1,6 +1,12 @@
 # eye-tracking-GoogleStreetView
 eye tracking in case of exploring Google Street View using an eye tracker "Tobii Pro Nano" and visualization with video, panoramic images and, kernel density  
 アイトラッカー（TobiiProNano）を用いた、Googleストリートビュー探索時のアイトラッキングと、動画、パノラマ画像、カーネル密度での視線の可視化
+  
+
+https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/3cb0390c-95c8-4b1b-94c0-fcb7b25ee61f
+
+![51](https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/54840cb0-9372-4362-b759-75aeac3b900e)
+![511](https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/07e0a519-694b-4539-80b2-5cea3341c5c2)
 
 ## 【概要】
 アイトラッカー（TobiiProNano）を用いた、Googleストリートビュー探索時のアイトラッキングデータを記録し、動画への可視化や、GoogleストリートビューのURL情報をもとに生成したパオラマ画像上で可視化するための、一連のデータ処理プログラム。
