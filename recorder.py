@@ -8,7 +8,7 @@ import datetime
 import csv
 
 # 出力ファイル
-f = open('output/output_gaze.csv', 'a')
+f = open('output/gaze.csv', 'a')
 writer = csv.writer(f)
 
 # アイトラッカーの存在確認
