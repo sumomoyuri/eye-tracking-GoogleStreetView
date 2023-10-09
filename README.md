@@ -5,8 +5,8 @@ eye tracking in case of exploring Google Street View using an eye tracker "Tobii
 
 https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/3cb0390c-95c8-4b1b-94c0-fcb7b25ee61f  
   
-<img width="1000" alt="panorama_sample" src="https://github.com/sumomoyuri/shortest-path-problem/assets/116475757/cdf18f8f-aa4d-4d30-8f29-4322f9a049db">  
-<img width="1000" alt="kernel_sample" src="https://github.com/sumomoyuri/shortest-path-problem/assets/116475757/cdf18f8f-aa4d-4d30-8f29-4322f9a049db">  
+<img width="1000" alt="panorama_sample" src="https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/46cdee2f-f64f-44d1-a5c6-24285e1162f5">  
+<img width="1000" alt="kernel_sample" src="https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/6deddf63-0069-48a4-8371-c5e3b23ad340">  
 
 ## 【概要】
 アイトラッカー（TobiiProNano）を用いた、Googleストリートビュー探索時のアイトラッキングデータを記録し、動画への可視化や、GoogleストリートビューのURL情報をもとに生成したパオラマ画像上で可視化するための、一連のデータ処理プログラム。  
@@ -71,8 +71,10 @@ Googleストリートビュー探索時に画面画録画をし、動画の開�
 Googleストリートビュー探索時の視線を分析する上では、PC画面に表示される平面画像上の視線位置ではなく、360度のパノラマ画像上での見回しも含めた一連の視線を考える必要がある。
 そこで、`get-url.ipynb`で取得したURLデータとrecorder.pyで取得した視線データを紐付け、URLカメラ情報をもとにパノラマ画像と視線データの座標変換を行うことで、同じ地点における見回しも含む一連の視線を一つのパノラマ画像上に可視化することができる。
 
-以下にパノラマ画像での視線可視化の方法を図で示す。
-<img width="500" alt="スクリーンショット 2023-10-09 22 58 29" src="https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/fc99b94a-0aa4-4d68-8a92-8adb0f58f4f4">  
+以下にパノラマ画像での視線可視化の方法を図で示す。  
+
+<img width="500" alt="generate_pano" src="https://github.com/sumomoyuri/eye-tracking-GoogleStreetView/assets/116475757/fc99b94a-0aa4-4d68-8a92-8adb0f58f4f4">  
+
 `generate-gaze-map.ipynb`のセルを順番に実行することで、`URLデータと視線データの紐付け`→`GoogleストリートビューAPI画像の取得`→`座標変換によるパノラマ合成`→`パノラマ画像上での視線可視化`まで行える。
 
 ### APIを用いたGoogleストリートビュー画像の取得
